@@ -1,0 +1,91 @@
+
+
+ion-header{
+  background-color: #ee353b;
+  margin-top: -30px;
+  padding: 10px 30px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  
+  h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color:#ffffff;
+    margin-left: 10px;
+  }
+
+  .avatar{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+
+    .profile {
+      width: 90%;
+      height: 90%;
+    }
+  }
+}
+h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:#515151;
+  margin: 0;
+}
+
+ion-searchbar {
+  --box-shadow:none;
+  --background:#f3f3f3;
+  --border-radius:1.2rem;
+  --placeholder-font-weight:600;
+  --placeholder-opacity:0.2;
+  padding: 0;
+  margin-bottom:2rem ;
+  .searchbar-input-container{
+    padding-top: 14px !important;
+    padding-bottom: 12px !important;
+    font-size: 18px !important;
+  }
+  .searchbar-search-icon {
+    top: 15px !important;
+    width: 25px;
+    height: 25pxs;
+  }
+}
+
+.cat-img{
+  background-color: #f3f3f3;
+  border-radius:1.5rem ;
+  padding: 0.8rem;
+}
+.cat-img:hover{
+  background-color: #ee353b;
+
+}
+.img1{
+  background-color: #ab0e13;
+}
+
+.food-img{
+border-radius: 20%;
+box-shadow: 5px 5px solid grey;
+}
+
+
+
+
+
+
+
+
+

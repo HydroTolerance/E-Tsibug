@@ -1,0 +1,43 @@
+<ion-content [fullscreen]="true">
+  <ion-header class="ion-padding ion-text-center">
+    <div class="headerbar">
+      <div class="header">
+          <h1>Menu</h1>
+          <div class="avatar">
+              <ion-img class="profile" src="../../assets/chef.jpg" (click)="welcome()"></ion-img>
+          </div>
+      </div>
+      <ion-searchbar></ion-searchbar>
+      
+      <div class="categories">
+              <ion-grid>
+                <ion-row>
+                  <ion-col><ion-img src="../../assets/home.png" class="cat-img " (click)="home()"></ion-img></ion-col>
+                  <ion-col><ion-img src="../../assets/Fiesta.png" class="cat-img " (click)="fiesta()"></ion-img></ion-col>
+                  <ion-col><ion-img src="../../assets/bouquet.png" class="cat-img img1" (click)="wedding()"></ion-img></ion-col>
+                  <ion-col><ion-img src="../../assets/others.png" class="cat-img" (click)="others()"></ion-img></ion-col>
+                </ion-row>
+              </ion-grid>
+      </div>
+      </div>
+  </ion-header>
+<br>
+
+
+<div class="food">
+  <h1 align="center">Kasalan</h1>
+  <ion-grid>
+    <ion-row>
+      <ion-col><ion-img src="../../assets/lechon.png" class="food-img" (click)="lechon()"></ion-img></ion-col>
+    </ion-row><br>
+
+    <ion-row>
+      <ion-col><ion-img src="../../assets/YEMa.png" class="food-img" (click)="yemacake()"></ion-img></ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+<br>
+<center>
+  <ion-button expand="block" fill="solid" color="primary" class="suggest-btn">Suggest</ion-button>
+</center>
+</ion-content>

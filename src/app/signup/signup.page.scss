@@ -1,0 +1,59 @@
+.title {
+    margin-bottom: 30px;
+}
+
+.title h4 {
+    color: var(--ion-color-primary);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.title p {
+    color: #454545;
+    font-size: medium;
+}
+
+/*ion-content {
+    --background: url(../../assets/signup.png) no-repeat center/cover fixed;
+
+}
+*/
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    }
+    .wave:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/wave.svg) repeat-x;
+    background-size: cover;
+    background-position: -1000px 0;
+    opacity: .3;
+    animation: waveOne 60s linear infinite;
+    }
+    @keyframes waveOne {
+    50%{
+    background-position: 0 0;
+    }
+    }
+    .wave:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/wave.svg) repeat-x;
+    background-size: cover;
+    background-position: 2732px 0;
+    opacity: .8;
+    animation: waveOne 120s linear infinite;
+    }
+    

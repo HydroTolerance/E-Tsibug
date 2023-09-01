@@ -1,0 +1,21 @@
+.title {
+    margin-bottom: 30px;
+}
+
+.title h4 {
+    color: var(--ion-color-primary);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.title p {
+    color: #454545;
+    font-size: medium;
+}
+
+ion-content {
+    --background: url(../../assets/login.png) no-repeat center/cover fixed;
+
+}
+
+

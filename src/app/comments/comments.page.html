@@ -1,0 +1,18 @@
+<div id="container">
+  <div id="item"> <p>Suggestion</p> </div>
+  <div id="item1"> 
+    <ion-item>
+      <p> <ion-label position="stacked">Write your own recipe</ion-label> </p>
+      <ion-item>
+        <ion-textarea placeholder="Leave here ..." [autoGrow]="true"> </ion-textarea>
+      </ion-item>
+    </ion-item>
+</div>
+
+
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed" (click)="home()">
+  <ion-fab-button color="danger">
+    <ion-icon name="arrow-forward-circle"></ion-icon>
+  </ion-fab-button>
+</ion-fab>

@@ -1,0 +1,22 @@
+<div id="container">
+  <div id="item"> <p>Suggestion</p> </div>
+  <div id="item1"> <ion-searchbar mode="ios" placeholder="Search for Dish"> </ion-searchbar> </div>
+  <div id="item2">
+    <ion-list>
+    <ion-item>
+      <ion-select interface="popover" placeholder="Sort by">
+        <ion-select-option value="all">All</ion-select-option>
+        <ion-select-option value="holiday">Holiday</ion-select-option>
+        <ion-select-option value="wedding">Wedding</ion-select-option>
+        <ion-select-option value="other">Other</ion-select-option>
+      </ion-select> 
+    </ion-item>
+  </ion-list> 
+  </div>
+</div>
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed" (click)="comment()">
+  <ion-fab-button color="danger">
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
